@@ -1,16 +1,16 @@
 <script>
 </script>
 
-<section class="bg-[#2563EB] text-white py-24 overflow-hidden relative">
+<section class="bg-gray-900 text-white py-24 overflow-hidden relative">
   <!-- Background gradient effect -->
-  <div class="absolute inset-0 bg-gradient-to-b from-[#3B82F6] to-[#1D4ED8] opacity-100"></div>
+  <div class="absolute inset-0 bg-gradient-to-b from-gray-800 to-black opacity-100"></div>
   
   <div class="relative max-w-[1200px] mx-auto px-6 text-center">
     <h2 class="text-5xl font-bold mb-6 tracking-tight leading-tight">
-      Groundbreaking<br>Design Management
+      Complete Visibility Into<br>Your Legacy Systems
     </h2>
-    <p class="text-blue-100 text-lg max-w-2xl mx-auto mb-16 leading-relaxed">
-      First-of-its-kind version control designed just for hardware. Config lets you track, annotate, and approve every critical decision. All without files, formats, and out-of-date versions getting in the way.
+    <p class="text-gray-300 text-lg max-w-2xl mx-auto mb-16 leading-relaxed">
+      Element's platform provides deep insights into your legacy codebase. Understand dependencies, identify business logic, and track transformation progress—all in one unified dashboard.
     </p>
 
     <!-- UI Mockup -->
