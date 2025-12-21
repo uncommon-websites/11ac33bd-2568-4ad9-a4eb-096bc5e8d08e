@@ -1,12 +1,12 @@
 <script>
   let activeTab = 'Geometry';
-  const tabs = ['Geometry', 'Drawing', 'Layout', 'Schematic'];
+  const tabs = ['Code View', 'Dependencies', 'Tests', 'Documentation'];
 </script>
 
 <section class="py-24 bg-white text-center">
   <div class="max-w-[1200px] mx-auto px-6">
     <h2 class="text-5xl font-bold mb-6 tracking-tight text-gray-900">
-      Magical Design<br>Reviews
+      Collaborative<br>Modernization
     </h2>
     
     <!-- Tabs -->
@@ -24,8 +24,8 @@
     </div>
 
     <p class="text-lg text-gray-600 mb-16 max-w-2xl mx-auto leading-relaxed">
-      Collaborate with your team on every revision of every part right in the browser.<br>
-      Add annotations, comments, and complete reviews.
+      Work together on transformation decisions with your entire team.<br>
+      Review changes, add comments, and approve transformations collaboratively.
     </p>
 
     <!-- UI Mockup -->
@@ -33,11 +33,11 @@
       <!-- Toolbar -->
       <div class="h-12 border-b border-gray-200 flex items-center justify-between px-4 bg-white">
         <div class="flex items-center gap-4">
-           <span class="text-xs font-mono text-gray-500">318-2214</span>
+           <span class="text-xs font-mono text-gray-500">TransactionProcessor</span>
            <span class="text-gray-300">/</span>
            <span class="text-xs font-bold text-gray-900 flex items-center gap-2">
-             <span class="w-2 h-2 rounded-full bg-blue-500"></span>
-             Enclosure - Revision 4
+             <span class="w-2 h-2 rounded-full bg-purple-500"></span>
+             Phase 3 - Microservices Transform
            </span>
         </div>
         

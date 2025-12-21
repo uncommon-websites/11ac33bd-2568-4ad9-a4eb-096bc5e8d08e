@@ -5,10 +5,10 @@
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="text-center mb-16">
       <h2 class="text-5xl font-bold mb-6 tracking-tight text-gray-900 leading-tight">
-        Welcome Your<br>Vendors In
+        Enterprise-Grade<br>Security & Control
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-        Data sent to vendors doesn't get lost with Config. Ditch email for a solution that's secure, traceable, and easy-to-use.
+        Element provides the security, compliance, and governance features enterprises need. Your code stays secure throughout the transformation.
       </p>
     </div>
 

@@ -5,22 +5,22 @@
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="mb-16">
       <h2 class="text-5xl font-bold mb-6 tracking-tight text-gray-900 leading-tight">
-        Finally. Your Team, on<br>the Same Page
+        Your Engineering Team,<br>Empowered to Modernize
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl leading-relaxed">
-        Config brings together all your teams to speed up and simplify shipping high-quality hardware.
+        Element brings together CTOs, architects, and developers to modernize legacy systems faster and with less risk.
       </p>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <!-- Left Column Group -->
       <div class="lg:col-span-2 flex flex-col gap-6">
-        <!-- Builds and Procurement Card -->
+        <!-- Transformation Progress Card -->
         <div class="bg-gradient-to-br from-[#4B88A2] to-[#3B7288] rounded-2xl p-8 text-white relative overflow-hidden h-[400px]">
            <div class="relative z-10">
-              <h3 class="text-xl font-bold mb-2">Builds and Procurement</h3>
+              <h3 class="text-xl font-bold mb-2">Transformation Progress</h3>
               <p class="text-blue-100 text-sm max-w-sm mb-8">
-                 Birds-eye view of your build progress without relying on out-of-date and error-prone spreadsheets.
+                 Real-time visibility into your modernization journey. Track modules, dependencies, and transformation status at a glance.
               </p>
               
               <!-- Chart UI -->

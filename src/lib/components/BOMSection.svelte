@@ -5,10 +5,10 @@
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="text-center mb-16">
       <h2 class="text-5xl font-bold mb-6 tracking-tight">
-        One-click Bill of Materials
+        Automated Code Transformation
       </h2>
       <p class="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
-        Save your team's precious time. Config replaces the lengthy process of manual BOM creation with one-click BOM from your engineering assembly, all driven by CAD.
+        Element analyzes your legacy codebase and automatically generates modern, maintainable code. Track every transformation with complete traceability and validation.
       </p>
     </div>
 
@@ -17,17 +17,17 @@
       <!-- Window Header -->
       <div class="bg-gray-50 border-b border-gray-200 px-4 py-2 flex items-center justify-between">
          <div class="flex items-center gap-2">
-            <span class="text-xs font-semibold text-gray-700">Atlas Main BOM</span>
+            <span class="text-xs font-semibold text-gray-700">Transformation Progress - Banking System</span>
          </div>
          <div class="flex items-center gap-3">
             <div class="flex items-center gap-1 text-xs text-gray-500 bg-white border border-gray-200 px-2 py-1 rounded">
                <span>👁️</span> View
             </div>
             <div class="flex items-center gap-1 text-xs text-gray-500 bg-white border border-gray-200 px-2 py-1 rounded">
-               <span>📊</span> All columns
+               <span>📊</span> All modules
             </div>
             <div class="flex items-center gap-1 text-xs text-gray-500 bg-white border border-gray-200 px-2 py-1 rounded">
-               <span>⬇️</span> Export CSV
+               <span>⬇️</span> Export Report
             </div>
             <button class="text-gray-400 hover:text-gray-600">✕</button>
          </div>
@@ -35,15 +35,15 @@
 
       <!-- Table Header -->
       <div class="grid grid-cols-12 bg-gray-50 border-b border-gray-200 text-[10px] font-bold text-gray-500 uppercase tracking-wider py-2 px-4">
-         <div class="col-span-1">Make/Buy</div>
-         <div class="col-span-1">Alt</div>
-         <div class="col-span-1">Lvl</div>
-         <div class="col-span-2">Part #</div>
-         <div class="col-span-3">Part Name</div>
-         <div class="col-span-1">Rev</div>
-         <div class="col-span-1">Qty</div>
-         <div class="col-span-1">UOM</div>
-         <div class="col-span-1">Part Family</div>
+         <div class="col-span-1">Status</div>
+         <div class="col-span-1">Phase</div>
+         <div class="col-span-1">Type</div>
+         <div class="col-span-2">Module</div>
+         <div class="col-span-3">Description</div>
+         <div class="col-span-1">LOC</div>
+         <div class="col-span-1">Progress</div>
+         <div class="col-span-1">Target</div>
+         <div class="col-span-1">Owner</div>
       </div>
 
       <!-- Table Body - Empty State / Search for effect -->
@@ -82,10 +82,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><path d="M14 17h6"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Assembly Hierarchies</h3>
+             <h3 class="text-lg font-bold text-white">Dependency Mapping</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Toggle and re-order assembly hierarchies by just dragging them around. No more manual marking of levels.
+             Automatically visualize and understand complex dependencies across your entire legacy system. No manual documentation needed.
           </p>
        </div>
 
@@ -95,10 +95,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Smart Redlining</h3>
+             <h3 class="text-lg font-bold text-white">Smart Code Analysis</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             See what has been changed, added, or removed between your BOM revisions just by glancing at the colors.
+             AI-powered analysis identifies business logic, data flows, and transformation opportunities automatically.
           </p>
        </div>
 
@@ -108,10 +108,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/><path d="M2 11.5a10 10 0 0 1 18.8-4.3L21.5 8"/><path d="M22 12.5a10 10 0 0 1-18.8 4.2L2.5 16"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Automatic Revision Updates</h3>
+             <h3 class="text-lg font-bold text-white">Incremental Updates</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Keep your part revisions up to date with one-click that re-synchronizes CAD data throughout your entire assembly.
+             Transform your system module by module. No big-bang rewrites—maintain business continuity throughout.
           </p>
        </div>
 
@@ -121,10 +121,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16"/><path d="M4 15h16"/><path d="M10 3L8 21"/><path d="M16 3l-2 18"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Part Numbers</h3>
+             <h3 class="text-lg font-bold text-white">Validation & Testing</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Assign new or existing part numbers to parts right from the BOM. Never end up with duplicate part numbers ever again.
+             Every transformation is validated against your original system. Automated testing ensures functional equivalence.
           </p>
        </div>
 
@@ -134,10 +134,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Change History</h3>
+             <h3 class="text-lg font-bold text-white">Complete Traceability</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Every change to a BOM item is recorded at both a part and BOM level for maximum traceability.
+             Track every transformation decision with full audit trails. Know exactly what changed, when, and why.
           </p>
        </div>
 
@@ -147,10 +147,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Placeholders</h3>
+             <h3 class="text-lg font-bold text-white">You Own the Code</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Ready yet? Easily sketch out your first BOM just like a spreadsheet and assign part numbers before CAD is ready.
+             All transformed code belongs to you. No vendor lock-in, no proprietary formats—just clean, modern code.
           </p>
        </div>
     </div>
